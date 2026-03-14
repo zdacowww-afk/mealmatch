@@ -6,38 +6,34 @@ p {
     color: #2c3e50;
 }
 
-.results-grid {
-    max-width: 900px;
-    margin: 20px auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 14px;
-    text-align: left;
-}
-
 .meal-card {
-    display: block;
-    padding: 14px;
-    border: 1px solid #ccc;
+    background: white;
+    border: 1px solid #ddd;
     border-radius: 12px;
-    background: #fff;
+    padding: 16px;
     text-decoration: none;
-    color: inherit;
+    color: #2c3e50;
+    transition: transform 0.15s;
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    height: 100%;
 }
 
 .meal-title {
-    margin: 0 0 8px 0;
+    margin: 10px 0 8px 0;
+    min-height: 48px;
 }
 
 .meal-meta {
     margin: 0;
-    font-weight: bold;
+    min-height: 48px;
 }
 
 .meal-open {
     display: inline-block;
-    margin-top: 10px;
+    margin-top: auto;
+    align-self: center;
     padding: 6px 12px;
     background: #ff7f50;
     color: white;
@@ -52,35 +48,16 @@ p {
     gap: 20px;
     max-width: 1000px;
     margin: 30px auto;
-}
-
-.meal-card {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    padding: 16px;
-    text-decoration: none;
-    color: #2c3e50;
-    transition: transform 0.15s;
-    max-width: 300px;
+    align-items: stretch;
 }
 
 .meal-card:hover {
     transform: translateY(-2px) scale(1.03);
 }
 
-.meal-title {
-    margin: 0 0 10px 0;
-}
-
 .meal-cal {
     margin-top: 8px;
     font-weight: bold;
-}
-
-.meal-open {
-    margin-top: 10px;
-    color: #2c3e50;
 }
 
 .meal-detail-card {
@@ -178,7 +155,7 @@ p {
 
 .meal-card-img {
     width: 100%;
-    height: 160px;
+    height: 180px;
     object-fit: cover;
     border-radius: 8px;
     margin-bottom: 10px;
