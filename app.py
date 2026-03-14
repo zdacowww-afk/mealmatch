@@ -9,7 +9,7 @@ import sqlite3
 from datetime import datetime
 
 EMAIL_ADDRESS = os.environ.get("EMAIL_ADDRESS")
-EMAIL_PASSWORD = ("EMAIL_PASSWORD")
+EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 
 app = Flask(__name__)
 app.secret_key = os.environ.get(
