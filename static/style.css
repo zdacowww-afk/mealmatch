@@ -543,3 +543,16 @@ body {
     background-color: #ff7f00;
     cursor: pointer;
 }
+
+.view-details {
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.view-details:hover {
+    background-color: #e76f51;
+}
