@@ -532,3 +532,9 @@ body {
 .view-details:hover {
     background-color: #e76f51;
 }
+
+.main-nav a.active {
+    color: #ff7f50;
+    font-weight: bold;
+    border-bottom: 2px solid #ff7f50;
+}
