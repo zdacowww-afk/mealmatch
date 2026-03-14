@@ -349,7 +349,7 @@ def send_email(name, email, message):
         },
         json={
             "from": "MealMatch <onboarding@resend.dev>",
-            "to": [os.getenv("EMAIL_ADDRESS")],
+            "to": ["zdacowww@gmail.com"],
             "subject": f"MealMatch Contact from {name}",
             "text": f"Name: {name}\nEmail: {email}\n\nMessage:\n{message}"
         }
