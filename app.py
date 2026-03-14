@@ -346,7 +346,6 @@ def contact():
     success = False
 
     if request.method == "POST":
-
         name = request.form.get("name")
         email = request.form.get("email")
         message = request.form.get("message")
@@ -369,21 +368,20 @@ Message:
 
         msg = MIMEText(email_body)
         msg["Subject"] = subject
-        msg["From"] = f"MealMatch Contact Form <{EMAIL_ADDRESS}>"
+        msg["From"] = EMAIL_ADDRESS
         msg["To"] = EMAIL_ADDRESS
         msg["Reply-To"] = email
 
         try:
-            server = smtplib.SMTP("smtp.gmail.com", 587)
+            server = smtplib.SMTP("smtp.gmail.com", 587, timeout=10)
             server.starttls()
             server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
             server.send_message(msg)
             server.quit()
-
             success = True
-
         except Exception as e:
             print("Email error:", e)
+            success = False
 
     return render_template("contact.html", success=success)
 
