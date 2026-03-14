@@ -7,7 +7,7 @@
     {% if meals %}
     <div class="results-grid">
         {% for meal in meals %}
-        <a href="/meal/{{ meal.id }}" class="meal-card">
+        <a href="{{ url_for('meal_detail', meal_id=meal.id) }}" class="meal-card">
             {% if meal.image %}
             <img src="{{ meal.image }}" alt="{{ meal.name }}" class="meal-card-img">
             {% endif %}

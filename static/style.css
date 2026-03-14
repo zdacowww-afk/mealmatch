@@ -26,10 +26,6 @@ p {
     text-align: center;
 }
 
-.meal-card:hover {
-    transform: translateY(-2px);
-}
-
 .meal-title {
     margin: 0 0 8px 0;
 }
@@ -40,9 +36,14 @@ p {
 }
 
 .meal-open {
-    margin: 12px 0 0 0;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 12px;
+    background: #ff7f50;
+    color: white;
+    border-radius: 6px;
     font-size: 14px;
-    text-decoration: underline;
+    font-weight: 500;
 }
 
 .results-grid {
@@ -65,7 +66,7 @@ p {
 }
 
 .meal-card:hover {
-    transform: scale(1.03);
+    transform: translateY(-2px) scale(1.03);
 }
 
 .meal-title {
