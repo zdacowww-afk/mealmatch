@@ -451,7 +451,7 @@ def favorites():
     favorite_meals = [meal for meal in meals if meal["id"] in favorite_ids]
 
     return render_template(
-        "favorites.html",
+        "saved_meals.html",
         meals=favorite_meals
     )
 

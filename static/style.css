@@ -13,28 +13,29 @@ p {
     padding: 16px;
     text-decoration: none;
     color: #2c3e50;
-    transition: transform 0.15s;
     display: flex;
     flex-direction: column;
     text-align: center;
-    height: 100%;
+    min-height: 360px;
+    box-sizing: border-box;
 }
 
 .meal-title {
-    margin: 10px 0 8px 0;
-    min-height: 48px;
+    margin: 12px 0 8px 0;
+    min-height: 56px;
 }
 
 .meal-meta {
-    margin: 0;
-    min-height: 48px;
+    margin: 0 0 14px 0;
+    min-height: 44px;
+    line-height: 1.4;
 }
 
 .meal-open {
     display: inline-block;
     margin-top: auto;
     align-self: center;
-    padding: 6px 12px;
+    padding: 8px 16px;
     background: #ff7f50;
     color: white;
     border-radius: 6px;
@@ -44,15 +45,14 @@ p {
 
 .results-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(240px, 240px));
     gap: 20px;
-    max-width: 1000px;
-    margin: 30px auto;
+    justify-content: start;
     align-items: stretch;
 }
 
 .meal-card:hover {
-    transform: translateY(-2px) scale(1.03);
+    transform: translateY(-2px);
 }
 
 .meal-cal {
