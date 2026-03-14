@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="meal-detail-card">
+
+    <h2 class="meal-detail-title">{{ meal.name }}</h2>
+
+    <form action="/save_meal/{{ meal.id }}" method="POST">
+        <button type="submit" class="save-btn">
+            {% if is_favorite %}
+            Untoggle Favorite
+            {% else %}
+            Toggle Favorite
+            {% endif %}
+        </button>
+    </form>
+
+    {% if popup_message %}
+    <div class="popup-msg">{{ popup_message }}</div>
+    {% endif %}
+
+    {% if meal.image %}
+    <img src="{{ meal.image }}" alt="{{ meal.name }}" class="meal-detail-img">
+    {% endif %}
+
+    <div class="meal-options">
+        <span class="pill">{{ meal.calories }} cal</span>
+        <span class="pill">{{ meal.category }}</span>
+        <span class="pill">{{ meal.diet }}</span>
+    </div>
+
+    <div class="meal-info-columns">
+
+        <div class="meal-info-box">
+            <h3>Ingredients required to make this meal:</h3>
+            <ul>
+                {% for item in meal.ingredients %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="meal-info-box">
+            <h3>Steps on how to create this meal:</h3>
+            <ol>
+                {% for step in meal.steps %}
+                <li>{{ step }}</li>
+                {% endfor %}
+            </ol>
+        </div>
+
+    </div>
+
+    <div class="related-meals-section">
+        <h3 class="related-title">Related Meals:</h3>
+    </div>
+
+    {% if related_meals and related_meals|length > 0 %}
+    <div class="results-grid">
+        {% for related in related_meals %}
+        <a href="/meal/{{ related.id }}" class="meal-card">
+            {% if related.image %}
+            <img src="{{ related.image }}" alt="{{ related.name }}" class="meal-card-img">
+            {% endif %}
+
+            <h4 class="meal-title">{{ related.name }}</h4>
+            <p class="meal-meta">{{ related.calories }} cal | {{ related.category }} | {{ related.diet }}</p>
+            <p>Matching Ingredients: {{ related.shared_count }}</p>
+            <span class="view-btn">View Details</span>
+        </a>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p class="no-results-msg">No related meals found.</p>
+    {% endif %}
+</div>
+
+{% endblock %}

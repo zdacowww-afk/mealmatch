@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Search History</h1>
+
+{% if searches and searches|length > 0 %}
+<div style="max-width:900px; margin:20px auto; text-align:left;">
+    <table border="1" cellpadding="10" cellspacing="0" style="width:100%; border-collapse:collapse; background:white;">
+        <tr>
+            <th>Fitness Goal</th>
+            <th>Category</th>
+            <th>Ingredients</th>
+            <th>Searched At</th>
+        </tr>
+
+        {% for search in searches %}
+        <tr>
+            <td>{{ search.goal or "-" }}</td>
+            <td>{{ search.category or "-" }}</td>
+            <td>{{ search.ingredients or "-" }}</td>
+            <td>{{ search.searched_at }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% else %}
+<p>No saved searches yet.</p>
+{% endif %}
+
+<p><a href="/search">Back to search</a></p>
+{% endblock %}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MealMatch</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="logo-section">
+            <img src="{{ url_for('static', filename='images/carrot.avif') }}" alt="MealMatch Logo" class="logo-icon">
+            <div class="logo-text">
+                <h1>MealMatch</h1>
+                <p>Smart meal recommendations</p>
+            </div>
+        </div>
+
+        <nav class="main-nav">
+            <a href="/">Home</a>
+            <a href="/search">Search</a>
+            <a href="/favorites">Saved Meals</a>
+            <a href="/contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="footer">
+        <p>MealMatch © 2026 | Healthy meals for every fitness goal</p>
+    </footer>
+
+</body>
+
+</html>

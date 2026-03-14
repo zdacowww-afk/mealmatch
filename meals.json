@@ -1,0 +1,2137 @@
+[
+    {
+        "id": "iraqi_masgouf",
+        "name": "Masgouf",
+        "cuisine": "iraqi",
+        "category": "iraqi",
+        "diet": "normal",
+        "calories": 720,
+        "image": "/static/images/masgouf.jpeg",
+        "ingredients": [
+            "1 whole carp fish",
+            "salt",
+            "tamarind sauce",
+            "olive oil",
+            "lemon"
+        ],
+        "steps": [
+            "Cut the fish open and clean it",
+            "Season the fish with salt and tamarind sauce",
+            "Place the fish near an open fire",
+            "Cook slowly for about 45 minutes",
+            "Serve with lemon and bread"
+        ]
+    },
+    {
+        "id": "turkish_dolma",
+        "name": " Yaprax Dolma",
+        "diet": "normal",
+        "cuisine": "turkish",
+        "category": "turkish",
+        "calories": 380,
+        "image": "/static/images/Yaprax Dolma.jpeg",
+        "ingredients": [
+            "grape leaves",
+            "rice",
+            "minced meat",
+            "onion",
+            "garlic",
+            "parsley",
+            "olive oil",
+            "lemon",
+            "salt",
+            "black pepper",
+            "yogurt (optional, on the side)"
+        ],
+        "steps": [
+            "Wash the grape leaves and remove the stems",
+            "Mix rice, minced meat, chopped onion, garlic, and parsley in a bowl",
+            "Add salt, pepper and olive oil to the mixture.",
+            "Place a spoonful of the filling on each grape leaf",
+            "Fold the sides and roll tightly into small wraps.",
+            "Place the rolls in a pot and add a little water and lemon juice.",
+            "Cook on low heat until the rice is fully cooked."
+        ]
+    },
+    {
+        "id": "iraqi_kubba",
+        "name": "Kubba",
+        "diet": "normal",
+        "cuisine": "iraqi",
+        "category": "iraqi",
+        "calories": 600,
+        "image": "/static/images/kubba.jpg",
+        "ingredients": [
+            "bulgur wheat",
+            "minced meat",
+            "onion",
+            "parsley",
+            "pine nuts",
+            "salt",
+            "black pepper",
+            "flour",
+            "oil"
+        ],
+        "steps": [
+            "Soak the bulgur in water until soft.",
+            "Mix bulgur with flour and salt to form a dough.",
+            "Cook minced meat with onion, parsley and pine nuts.",
+            "Season the filling with salt and black pepper.",
+            "Shape the dough into small shells.",
+            "Fill the shells with the meat mixture and seal them.",
+            "Deep fry the kubba until golden brown."
+        ]
+    },
+    {
+        "id": "iraqi_tashreeb",
+        "name": "Tashreeb",
+        "diet": "normal",
+        "cuisine": "iraqi",
+        "category": "iraqi",
+        "calories": 650,
+        "image": "/static/images/tashreeb.jpg",
+        "ingredients": [
+            "lamb",
+            "flatbread",
+            "onion",
+            "tomato",
+            "potato",
+            "garlic",
+            "cumin",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Cook lamb with onion and garlic in a large pot.",
+            "Add tomatoes and potatoes to the lamb stew.",
+            "Season with cumin, salt and black pepper.",
+            "Simmer until the meat becomes tender.",
+            "Break flatbread into pieces in a bowl.",
+            "Pour the hot stew over the bread and let it soak before eating.",
+            "Serve while its still warm."
+        ]
+    },
+    {
+        "id": "iraqi_tepsi_baytinijan",
+        "name": "Tepsi Baytinijan",
+        "diet": "normal",
+        "cuisine": "iraqi",
+        "category": "iraqi",
+        "calories": 420,
+        "image": "/static/images/tepsi.jpg",
+        "ingredients": [
+            "eggplants",
+            "minced meat",
+            "onion",
+            "tomato sauce",
+            "garlic",
+            "salt",
+            "black pepper",
+            "oil",
+            "potato"
+        ],
+        "steps": [
+            "Slice eggplant and potatoes.",
+            "Fry the eggplant lightly in oil",
+            "Cook minced meat with onion and garlic.",
+            "Layer eggplant and potatoes in a baking tray.",
+            "Add the meat mixture on top.",
+            "Bake in the oven until fully cooked."
+        ]
+    },
+    {
+        "id": "iraqi_biryani",
+        "name": "Iraqi Biryani",
+        "diet": "normal",
+        "cuisine": "iraqi",
+        "category": "iraqi",
+        "calories": 680,
+        "image": "/static/images/biryani.jpg",
+        "ingredients": [
+            "rice",
+            "chicken",
+            "onion",
+            "peas",
+            "carrot",
+            "potato",
+            "raisins",
+            "almonds",
+            "oil",
+            "salt",
+            "biryani spices"
+        ],
+        "steps": [
+            "Wash and partially cook the rice.",
+            "Cook lamb with onion and garlic in a large pot.",
+            "Add peas, carrots and potatoes.",
+            "Mix the rice with the chicken mixture.",
+            "Add raisins and almonds.",
+            "Cook everything together until flavors combine.",
+            "Serve hot."
+        ]
+    },
+    {
+        "id": "iraq_bamia",
+        "name": "Bamia",
+        "diet": "normal",
+        "cuisine": "iraqi",
+        "category": "iraqi",
+        "calories": 420,
+        "image": "/static/images/bamia.webp",
+        "ingredients": [
+            "okra",
+            "lamb",
+            "tomato paste",
+            "tomato",
+            "onion",
+            "garlic",
+            "salt",
+            "lemon",
+            "black pepper",
+            "oil",
+            "rice"
+        ],
+        "steps": [
+            "Heat oil in a pot and cook onion until soft.",
+            "Add lamb and cook until browned.",
+            "Add garlic and chopped tomatoes.",
+            "Mix in tomato paste and spices.",
+            "Add water and simmer until the meat is tender.",
+            "Add okra and cook until soft.",
+            "Serve hot with rice."
+        ]
+    },
+    {
+        "id": "iraqi_samoon_sandwich",
+        "name": "Samoon Sandwich",
+        "diet": "normal",
+        "cuisine": "iraqi",
+        "category": "iraqi",
+        "calories": 480,
+        "image": "/static/images/samoon.webp",
+        "ingredients": [
+            "samoon bread",
+            "chicken",
+            "lettuce",
+            "tomato",
+            "pickles",
+            "onion",
+            "mayonnaise",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Cook the chicken with salt and pepper.",
+            "Slice the samoon bread open.",
+            "Add lettuce, tomato, and onion inside the samoon bread.",
+            "Place the cooked chicken on top.",
+            "Add pickles and mayonnaise.",
+            "Close the sandwich and serve."
+        ]
+    },
+    {
+        "id": "iraqi_mutabbaq_samak",
+        "name": "Mutabbaq Samak",
+        "diet": "normal",
+        "cuisine": "iraqi",
+        "category": "iraqi",
+        "calories": 520,
+        "image": "/static/images/mutabbaq.jpg",
+        "ingredients": [
+            "fish",
+            "rice",
+            "turmeric powder",
+            "onion",
+            "tomato",
+            "garlic",
+            "spices",
+            "oil",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Season the fish with salt and spices.",
+            "Fry the fish until cooked.",
+            "Cook rice in a separate pot, add turmeric powder to make the rice yellow.",
+            "Saute onion and garlic in oil.",
+            "Add tomatoes and cook briefly.",
+            "Mix rice with the onion mixture.",
+            "Serve the fish on top of the yellow rice."
+        ]
+    },
+    {
+        "id": "iraqi_lentil_soup",
+        "name": "Lentil Soup",
+        "diet": "vegetarian",
+        "cuisine": "iraqi",
+        "category": "soup",
+        "calories": 300,
+        "image": "/static/images/lentil.jpg",
+        "ingredients": [
+            "lentils",
+            "onion",
+            "garlic",
+            "carrot",
+            "potato",
+            "tomato paste",
+            "cumin",
+            "salt",
+            "black pepper",
+            "oil"
+        ],
+        "steps": [
+            "Heat oil and cook onion until soft.",
+            "Add garlic and stir briefly.",
+            "Add lentils, carrots and potatoes.",
+            "Mix in tomato paste and spices.",
+            "Add water and simmer until lentils are soft.",
+            "Blend lightly if desired.",
+            "Serve hot."
+        ]
+    },
+    {
+        "id": "turkish_doner_kebab",
+        "name": "Doner Kebab",
+        "diet": "normal",
+        "cuisine": "turkish",
+        "category": "turkish",
+        "calories": 650,
+        "image": "/static/images/doner.jpg",
+        "ingredients": [
+            "beef",
+            "onion",
+            "garlic",
+            "yogurt",
+            "spices",
+            "pita bread",
+            "tomato",
+            "lettuce",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Marinate beef with yogurt, garlic and spices.",
+            "Cook the meat until browned.",
+            "Slice the meat thinly.",
+            "Place meat inside pita bread.",
+            "Add lettuce, tomato and sauce.",
+            "Serve warm."
+        ]
+    },
+    {
+        "id": "turkish_iskender_kebab",
+        "name": "Iskender Kebab",
+        "diet": "normal",
+        "cuisine": "turkish",
+        "category": "turkish",
+        "calories": 720,
+        "image": "/static/images/iskender.avif",
+        "ingredients": [
+            "doner meat",
+            "pita bread",
+            "tomato sauce",
+            "butter",
+            "yogurt",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Cut pita bread into small pieces.",
+            "Place bread on a plate.",
+            "Add slices of doner meat on top.",
+            "Pour tomato sauce over the meat.",
+            "Add melted butter.",
+            "Serve with yogurt."
+        ]
+    },
+    {
+        "id": "turkish_lahmacun",
+        "name": "Lahmacun",
+        "diet": "normal",
+        "cuisine": "turkish",
+        "category": "turkish",
+        "calories": 450,
+        "image": "/static/images/lahmacun.jpg",
+        "ingredients": [
+            "flatbread",
+            "minced meat",
+            "tomato",
+            "onion",
+            "parsley",
+            "garlic",
+            "pepper",
+            "salt",
+            "spices"
+        ],
+        "steps": [
+            "Prepare a mixture of minced meat, tomato and onion.",
+            "Add parsley, garlic and spices.",
+            "Spread the mixture on flatbread.",
+            "Bake in a hot oven until cooked.",
+            "Serve with fresh vegetables."
+        ]
+    },
+    {
+        "id": "turkish_gozleme",
+        "name": "Gozleme",
+        "diet": "vegetarian",
+        "cuisine": "turkish",
+        "category": "turkish",
+        "calories": 420,
+        "image": "/static/images/gozleme.jpg",
+        "ingredients": [
+            "flatbread dough",
+            "spinach",
+            "cheese",
+            "onion",
+            "oil",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Roll the dough into a thin flatbread.",
+            "Add spinach, cheese and onion filling.",
+            "Fold the dough over the filling.",
+            "Cook on a hot pan with oil.",
+            "Cook until both sides are golden.",
+            "Serve warm."
+        ]
+    },
+    {
+        "id": "turkish_menemen",
+        "name": "Menemen",
+        "diet": "vegetarian",
+        "cuisine": "turkish",
+        "category": "turkish",
+        "calories": 320,
+        "image": "/static/images/menemen.webp",
+        "ingredients": [
+            "eggs",
+            "tomato",
+            "green pepper",
+            "onion",
+            "butter",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Cook onion and green pepper in butter.",
+            "Add chopped tomatoes.",
+            "Cook until tomatoes soften.",
+            "Crack eggs into the mixture.",
+            "Stir gently until eggs are cooked.",
+            "Serve hot with bread."
+        ]
+    },
+    {
+        "id": "turkish_pide",
+        "name": "Pide",
+        "diet": "normal",
+        "cuisine": "turkish",
+        "category": "turkish",
+        "calories": 500,
+        "image": "/static/images/pide.jpg",
+        "ingredients": [
+            "pizza dough",
+            "minced meat",
+            "cheese",
+            "tomato",
+            "onion",
+            "egg",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Roll the dough into a boat shape.",
+            "Add minced meat and chopped vegetables.",
+            "Top with cheese.",
+            "Bake in the oven until the dough is golden.",
+            "Crack an egg on top if desired.",
+            "Serve hot."
+        ]
+    },
+    {
+        "id": "turkish_kofte",
+        "name": "Kofte",
+        "diet": "normal",
+        "cuisine": "turkish",
+        "category": "turkish",
+        "calories": 430,
+        "image": "/static/images/kofte.jpg",
+        "ingredients": [
+            "minced beef",
+            "onion",
+            "garlic",
+            "parsley",
+            "breadcrumbs",
+            "egg",
+            "salt",
+            "black pepper",
+            "spices"
+        ],
+        "steps": [
+            "Mix minced meat with onion, garlic and parsley.",
+            "Add breadcrumbs, egg and spices.",
+            "Shape the mixture into small patties.",
+            "Cook on a grill or pan.",
+            "Turn until fully cooked.",
+            "Serve with bread or salad."
+        ]
+    },
+    {
+        "id": "turkish_manti",
+        "name": "Manti",
+        "diet": "normal",
+        "cuisine": "turkish",
+        "category": "turkish",
+        "calories": 500,
+        "image": "/static/images/manti.jpg",
+        "ingredients": [
+            "dumpling dough",
+            "minced beef",
+            "onion",
+            "garlic",
+            "yogurt",
+            "butter",
+            "paprika",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Prepare small dumplings filled with minced beef and onion.",
+            "Boil the dumplings in salted water until cooked.",
+            "Mix yogurt with garlic.",
+            "Place the dumplings on a plate and add yogurt sauce.",
+            "Heat butter with paprika and pour on top."
+        ]
+    },
+    {
+        "id": "turkish_imam_bayildi",
+        "name": "Imam Bayildi",
+        "diet": "vegetarian",
+        "cuisine": "turkish",
+        "category": "turkish",
+        "calories": 350,
+        "image": "/static/images/bayildi.webp",
+        "ingredients": [
+            "eggplant",
+            "onion",
+            "garlic",
+            "tomato",
+            "olive oil",
+            "parsley",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Cut eggplants in half and fry lightly in olive oil.",
+            "Cook onion, garlic and tomatoes in a pan.",
+            "Fill the eggplants with the tomato mixture.",
+            "Bake in the oven until soft.",
+            "Serve with parsley on top."
+        ]
+    },
+    {
+        "id": "turkish_simit",
+        "name": "Simit",
+        "diet": "vegetarian",
+        "cuisine": "turkish",
+        "category": "turkish",
+        "calories": 300,
+        "image": "/static/images/simit.jpeg",
+        "ingredients": [
+            "flour",
+            "yeast",
+            "water",
+            "salt",
+            "sesame seeds",
+            "sugar"
+        ],
+        "steps": [
+            "Mix flour, yeast, water and salt to make dough.",
+            "Shape the dough into rings.",
+            "Dip the rings into water and sesame seeds.",
+            "Bake in the oven until golden brown.",
+            "Serve warm."
+        ]
+    },
+    {
+        "id": "italian_margherita_pizza",
+        "name": "Margherita Pizza",
+        "diet": "vegetarian",
+        "cuisine": "italian",
+        "category": "pizza",
+        "calories": 550,
+        "image": "/static/images/pizza.jpg",
+        "ingredients": [
+            "pizza dough",
+            "tomato sauce",
+            "mozzarella",
+            "basil",
+            "olive oil",
+            "salt"
+        ],
+        "steps": [
+            "Roll the pizza dough flat.",
+            "Spread tomato sauce on the dough.",
+            "Add mozzarella cheese and basil.",
+            "Bake in a hot oven until the crust is golden.",
+            "Drizzle olive oil and serve."
+        ]
+    },
+    {
+        "id": "spaghetti_bolognese",
+        "name": "Spaghetti Bolognese",
+        "diet": "normal",
+        "cuisine": "italian",
+        "category": "pasta",
+        "calories": 650,
+        "image": "/static/images/bolognese.jpeg",
+        "ingredients": [
+            "spaghetti",
+            "minced beef",
+            "tomato",
+            "onion",
+            "garlic",
+            "olive oil",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Cook spaghetti in boiling water.",
+            "Cook minced beef with onion and garlic.",
+            "Add tomatoes and simmer to make sauce.",
+            "Mix the sauce with spaghetti.",
+            "Serve hot."
+        ]
+    },
+    {
+        "id": "italian_lasagna",
+        "name": "Lasagna",
+        "diet": "normal",
+        "cuisine": "italian",
+        "category": "pasta",
+        "calories": 720,
+        "image": "/static/images/lasagna.webp",
+        "ingredients": [
+            "lasagna pasta",
+            "minced beef",
+            "tomato sauce",
+            "onion",
+            "garlic",
+            "bechamel sauce",
+            "mozzarella",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Cook minced beef with onion and garlic.",
+            "Add tomato sauce and simmer.",
+            "Layer pasta sheets with meat sauce and bechamel.",
+            "Add mozzarella between layers.",
+            "Bake in the oven until golden."
+        ]
+    },
+    {
+        "id": "fettuccine_alfredo",
+        "name": "Fettuccine Alfredo",
+        "diet": "normal",
+        "cuisine": "italian",
+        "category": "pasta",
+        "calories": 700,
+        "image": "/static/images/alfredo.jpg",
+        "ingredients": [
+            "fettuccine pasta",
+            "butter",
+            "cream",
+            "parmesan",
+            "garlic",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Cook fettuccine pasta.",
+            "Melt butter and add cream in a pan.",
+            "Add garlic and parmesan cheese.",
+            "Mix the pasta with the creamy sauce.",
+            "Serve warm."
+        ]
+    },
+    {
+        "id": "italian_risotto",
+        "name": "Risotto",
+        "diet": "vegetarian",
+        "cuisine": "italian",
+        "category": "italian",
+        "calories": 520,
+        "image": "/static/images/risotto.jpg",
+        "ingredients": [
+            "risotto rice",
+            "onion",
+            "butter",
+            "parmesan",
+            "vegetable broth",
+            "olive oil",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Cook onion in butter and olive oil.",
+            "Add risotto rice and stir.",
+            "Slowly add vegetable broth while stirring.",
+            "Cook until rice becomes creamy.",
+            "Add parmesan cheese and serve."
+        ]
+    },
+    {
+        "id": "italian_gnocchi",
+        "name": "Gnocchi",
+        "diet": "vegetarian",
+        "cuisine": "italian",
+        "category": "italian",
+        "calories": 480,
+        "image": "/static/images/gnocchi.jpg",
+        "ingredients": [
+            "potato",
+            "flour",
+            "egg",
+            "parmesan",
+            "butter",
+            "salt"
+        ],
+        "steps": [
+            "Boil potatoes and mash them.",
+            "Mix potatoes with flour and egg to form dough.",
+            "Shape small dumplings.",
+            "Boil gnocchi until they float.",
+            "Serve with butter and parmesan."
+        ]
+    },
+    {
+        "id": "caprese_salad",
+        "name": "Caprese Salad",
+        "diet": "vegetarian",
+        "cuisine": "italian",
+        "category": "salad",
+        "calories": 250,
+        "image": "/static/images/salad.webp",
+        "ingredients": [
+            "tomato",
+            "mozzarella",
+            "basil",
+            "olive oil",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Slice tomatoes and mozzarella.",
+            "Arrange them on a plate.",
+            "Add fresh basil leaves.",
+            "Drizzle olive oil.",
+            "Season with salt and pepper."
+        ]
+    },
+    {
+        "id": "spaghetti_carbonara",
+        "name": "Spaghetti Carbonara",
+        "diet": "normal",
+        "cuisine": "italian",
+        "category": "pasta",
+        "calories": 680,
+        "image": "/static/images/carbonara - Copy.jpg",
+        "ingredients": [
+            "spaghetti",
+            "egg",
+            "parmesan",
+            "bacon",
+            "black pepper",
+            "salt"
+        ],
+        "steps": [
+            "Cook spaghetti pasta.",
+            "Cook bacon until crispy.",
+            "Mix eggs with parmesan cheese.",
+            "Combine pasta with bacon and egg mixture.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": "italian_ravioli",
+        "name": "Ravioli",
+        "diet": "vegetarian",
+        "cuisine": "italian",
+        "category": "pasta",
+        "calories": 520,
+        "image": "/static/images/ravioli.jpg",
+        "ingredients": [
+            "pasta dough",
+            "ricotta",
+            "spinach",
+            "tomato sauce",
+            "parmesan",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Prepare pasta dough sheets.",
+            "Fill with ricotta and spinach mixture.",
+            "Seal into small pockets.",
+            "Boil ravioli until cooked.",
+            "Serve with tomato sauce and parmesan."
+        ]
+    },
+    {
+        "id": "italian_grilled_chicken_pasta",
+        "name": "Italian Grilled Chicken Pasta",
+        "diet": "normal",
+        "cuisine": "italian",
+        "category": "pasta",
+        "calories": 620,
+        "image": "/static/images/pasta.png",
+        "ingredients": [
+            "pasta",
+            "chicken",
+            "cream",
+            "garlic",
+            "parmesan",
+            "olive oil",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Grill chicken until cooked.",
+            "Cook pasta in boiling water.",
+            "Prepare cream sauce with garlic and parmesan.",
+            "Mix pasta with the sauce.",
+            "Add sliced grilled chicken on top."
+        ]
+    },
+    {
+        "id": "butter_chicken",
+        "name": "Butter Chicken",
+        "diet": "normal",
+        "cuisine": "indian",
+        "category": "indian",
+        "calories": 700,
+        "image": "/static/images/chicken.jpg",
+        "ingredients": [
+            "chicken",
+            "butter",
+            "tomato sauce",
+            "cream",
+            "garlic",
+            "ginger",
+            "garam masala",
+            "salt",
+            "rice"
+        ],
+        "steps": [
+            "Cook chicken pieces in butter.",
+            "Add garlic and ginger.",
+            "Add tomato sauce and spices.",
+            "Simmer with cream until thick.",
+            "Serve with rice."
+        ]
+    },
+    {
+        "id": "banana_smoothie",
+        "name": "Banana Smoothie",
+        "diet": "vegetarian",
+        "cuisine": "drink",
+        "category": "drink",
+        "calories": 220,
+        "image": "/static/images/smoothie.webp",
+        "ingredients": [
+            "banana",
+            "milk",
+            "honey",
+            "ice"
+        ],
+        "steps": [
+            "Add banana, milk and honey into a blender.",
+            "Add ice cubes.",
+            "Blend until smooth.",
+            "Serve cold."
+        ]
+    },
+    {
+        "id": "chocolate_milkshake",
+        "name": "Chocolate Milkshake",
+        "diet": "vegetarian",
+        "cuisine": "drink",
+        "category": "drink",
+        "calories": 350,
+        "image": "/static/images/milkshake.jpeg",
+        "ingredients": [
+            "milk",
+            "chocolate",
+            "ice cream",
+            "ice"
+        ],
+        "steps": [
+            "Add milk, chocolate and ice cream to a blender.",
+            "Add ice cubes.",
+            "Blend until smooth.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": "pancakes",
+        "name": "Pancakes",
+        "diet": "vegetarian",
+        "cuisine": "dessert",
+        "category": "dessert",
+        "calories": 400,
+        "image": "/static/images/pancakes.jpg",
+        "ingredients": [
+            "flour",
+            "milk",
+            "egg",
+            "sugar",
+            "butter"
+        ],
+        "steps": [
+            "Mix flour, milk and eggs to make batter.",
+            "Heat butter in a pan.",
+            "Pour batter into the pan.",
+            "Cook until both sides are golden.",
+            "Serve with syrup or fruit."
+        ]
+    },
+    {
+        "id": "chicken_tikka_masala",
+        "name": "Chicken Tikka Masala",
+        "diet": "normal",
+        "cuisine": "indian",
+        "category": "indian",
+        "calories": 680,
+        "image": "/static/images/masala.jpeg",
+        "ingredients": [
+            "chicken",
+            "yogurt",
+            "tomato",
+            "onion",
+            "garlic",
+            "ginger",
+            "cream",
+            "garam masala",
+            "salt",
+            "rice"
+        ],
+        "steps": [
+            "Marinate chicken with yogurt and spices.",
+            "Cook onion, garlic and ginger in oil.",
+            "Add tomatoes and spices to make sauce.",
+            "Add chicken and cook until tender.",
+            "Add cream and simmer.",
+            "Serve with rice."
+        ]
+    },
+    {
+        "id": "vegetable_biryani",
+        "name": "Vegetable Biryani",
+        "diet": "vegetarian",
+        "cuisine": "indian",
+        "category": "indian",
+        "calories": 550,
+        "image": "/static/images/v.jpg",
+        "ingredients": [
+            "rice",
+            "carrot",
+            "peas",
+            "potato",
+            "cauliflower",
+            "onion",
+            "garlic",
+            "ginger",
+            "biryani spices (also add cardamom, cinammon, and cloves after the rice)",
+            "oil",
+            "salt"
+        ],
+        "steps": [
+            "Boil rice in plently of salt water .",
+            "Cook vegetables with onion and spices.",
+            "Mix vegetables with rice.",
+            "Cook together until flavors combine.",
+            "Serve hot."
+        ]
+    },
+    {
+        "id": "palak_paneer",
+        "name": "Palak Paneer",
+        "diet": "vegetarian",
+        "cuisine": "indian",
+        "category": "indian",
+        "calories": 450,
+        "image": "/static/images/p.jpg",
+        "ingredients": [
+            "spinach",
+            "paneer",
+            "onion",
+            "garlic",
+            "ginger",
+            "cream",
+            "garam masala",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Cook spinach and blend into puree.",
+            "Cook onion, garlic and ginger in oil.",
+            "Add spinach puree and spices.",
+            "Add paneer cubes.",
+            "Simmer with cream and serve."
+        ]
+    },
+    {
+        "id": "dal_tadka",
+        "name": "Dal Tadka",
+        "diet": "vegetarian",
+        "cuisine": "indian",
+        "category": "indian",
+        "calories": 350,
+        "image": "/static/images/d.jpg",
+        "ingredients": [
+            "lentils",
+            "onion",
+            "garlic",
+            "tomato",
+            "cumin",
+            "turmeric",
+            "butter",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Cook lentils until soft.",
+            "Cook onion, garlic and tomato in oil.",
+            "Add spices and cooked lentils.",
+            "Heat butter with cumin and pour over dal.",
+            "Serve hot."
+        ]
+    },
+    {
+        "id": "naan_bread",
+        "name": "Naan Bread",
+        "diet": "vegetarian",
+        "cuisine": "indian",
+        "category": "indian",
+        "calories": 300,
+        "image": "/static/images/n.jpg",
+        "ingredients": [
+            "flour",
+            "yeast",
+            "yogurt",
+            "water",
+            "salt",
+            "butter"
+        ],
+        "steps": [
+            "Mix flour, yeast and yogurt to form dough.",
+            "Let dough rise.",
+            "Shape into flat breads.",
+            "Cook in a hot pan or oven.",
+            "Brush with butter and serve."
+        ]
+    },
+    {
+        "id": "indian_samosa",
+        "name": "Samosa",
+        "diet": "vegetarian",
+        "cuisine": "indian",
+        "category": "indian",
+        "calories": 320,
+        "image": "/static/images/s.webp",
+        "ingredients": [
+            "flour",
+            "potato",
+            "peas",
+            "onion",
+            "garam masala",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Cook potatoes with peas and spices.",
+            "Prepare dough and shape into triangles.",
+            "Fill with potato mixture.",
+            "Fry until golden.",
+            "Serve hot."
+        ]
+    },
+    {
+        "id": "tandoori_chicken",
+        "name": "Tandoori Chicken",
+        "diet": "normal",
+        "cuisine": "indian",
+        "category": "indian",
+        "calories": 520,
+        "image": "/static/images/t.jpg",
+        "ingredients": [
+            "chicken",
+            "yogurt",
+            "garlic",
+            "ginger",
+            "paprika",
+            "lemon",
+            "salt",
+            "oil"
+        ],
+        "steps": [
+            "Marinate chicken with yogurt and spices.",
+            "Let it rest for at least one hour.",
+            "Cook in oven or grill.",
+            "Serve hot."
+        ]
+    },
+    {
+        "id": "paneer_butter_masala",
+        "name": "Paneer Butter Masala",
+        "diet": "vegetarian",
+        "cuisine": "indian",
+        "category": "indian",
+        "calories": 520,
+        "image": "/static/images/pb.jpg",
+        "ingredients": [
+            "paneer",
+            "butter",
+            "tomato",
+            "cream",
+            "onion",
+            "garam masala",
+            "salt"
+        ],
+        "steps": [
+            "Cook onion and tomato in butter.",
+            "Blend into smooth sauce.",
+            "Add paneer cubes.",
+            "Add cream and spices.",
+            "Serve warm."
+        ]
+    },
+    {
+        "id": "asian_sushi",
+        "name": "Sushi",
+        "diet": "normal",
+        "cuisine": "asian",
+        "category": "asian",
+        "calories": 300,
+        "image": "/static/images/su.jpg",
+        "ingredients": [
+            "sushi rice",
+            "fish",
+            "seaweed",
+            "cucumber",
+            "soy sauce",
+            "vinegar"
+        ],
+        "steps": [
+            "Cook sushi rice.",
+            "Place rice on seaweed sheet.",
+            "Add fish and cucumber.",
+            "Roll tightly.",
+            "Slice and serve with soy sauce."
+        ]
+    },
+    {
+        "id": "asian_ramen",
+        "name": "Ramen",
+        "diet": "normal",
+        "cuisine": "asian",
+        "category": "asian",
+        "calories": 600,
+        "image": "/static/images/r.jpg",
+        "ingredients": [
+            "ramen noodles",
+            "broth",
+            "egg",
+            "chicken",
+            "green onion",
+            "soy sauce",
+            "garlic"
+        ],
+        "steps": [
+            "Cook ramen noodles.",
+            "Heat broth in a pot.",
+            "Add chicken and garlic.",
+            "Place noodles in bowl.",
+            "Pour broth and add egg and green onion."
+        ]
+    },
+    {
+        "id": "asian_pad_thai",
+        "name": "Pad Thai",
+        "diet": "normal",
+        "cuisine": "asian",
+        "category": "asian",
+        "calories": 550,
+        "image": "/static/images/pt.jpg",
+        "ingredients": [
+            "rice noodles",
+            "egg",
+            "chicken",
+            "bean sprouts",
+            "peanuts",
+            "soy sauce",
+            "lime"
+        ],
+        "steps": [
+            "Cook rice noodles.",
+            "Cook chicken in a pan.",
+            "Add egg and scramble.",
+            "Add noodles and sauce.",
+            "Top with peanuts and bean sprouts."
+        ]
+    },
+    {
+        "id": "vegetable_fried_rice",
+        "name": "Vegetable Fried Rice",
+        "diet": "vegetarian",
+        "cuisine": "asian",
+        "category": "asian",
+        "calories": 420,
+        "image": "/static/images/vf (2).jpg",
+        "ingredients": [
+            "rice",
+            "carrot",
+            "peas",
+            "egg",
+            "soy sauce",
+            "green onion",
+            "garlic",
+            "oil"
+        ],
+        "steps": [
+            "Cook rice and cool it.",
+            "Cook garlic and vegetables in oil.",
+            "Add rice and soy sauce.",
+            "Add scrambled egg.",
+            "Stir fry and serve."
+        ]
+    },
+    {
+        "id": "teriyaki_chicken",
+        "name": "Teriyaki Chicken",
+        "diet": "normal",
+        "cuisine": "asian",
+        "category": "asian",
+        "calories": 480,
+        "image": "/static/images/tc (2).jpg",
+        "ingredients": [
+            "chicken",
+            "soy sauce",
+            "sugar",
+            "garlic",
+            "ginger",
+            "rice",
+            "oil"
+        ],
+        "steps": [
+            "Cook chicken in a pan.",
+            "Add soy sauce, sugar, garlic and ginger.",
+            "Cook until sauce thickens.",
+            "Serve with rice."
+        ]
+    },
+    {
+        "id": "asian_dumplings",
+        "name": "Asian Dumplings",
+        "diet": "normal",
+        "cuisine": "asian",
+        "category": "asian",
+        "calories": 420,
+        "image": "/static/images/d.jpeg",
+        "ingredients": [
+            "dumpling wrappers",
+            "minced pork",
+            "cabbage",
+            "onion",
+            "garlic",
+            "ginger",
+            "soy sauce",
+            "sesame oil",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Mix minced pork, cabbage, onion, garlic and ginger.",
+            "Add soy sauce and sesame oil.",
+            "Place filling inside dumpling wrappers.",
+            "Fold and seal the dumplings.",
+            "Boil or steam until cooked.",
+            "Serve with dipping sauce."
+        ]
+    },
+    {
+        "id": "asian_bulgogi",
+        "name": "Bulgogi",
+        "diet": "normal",
+        "cuisine": "asian",
+        "category": "asian",
+        "calories": 520,
+        "image": "/static/images/b.webp",
+        "ingredients": [
+            "beef",
+            "soy sauce",
+            "garlic",
+            "ginger",
+            "sugar",
+            "sesame oil",
+            "green onion",
+            "rice"
+        ],
+        "steps": [
+            "Slice beef thinly.",
+            "Mix soy sauce, sugar, garlic and sesame oil.",
+            "Marinate beef in the sauce.",
+            "Cook beef in a hot pan.",
+            "Serve with rice."
+        ]
+    },
+    {
+        "id": "asian_pho",
+        "name": "Pho",
+        "diet": "normal",
+        "cuisine": "asian",
+        "category": "asian",
+        "calories": 480,
+        "image": "/static/images/ph.jpg",
+        "ingredients": [
+            "rice noodles",
+            "beef",
+            "broth",
+            "onion",
+            "ginger",
+            "green onion",
+            "soy sauce",
+            "lime"
+        ],
+        "steps": [
+            "Heat broth with onion and ginger.",
+            "Cook rice noodles.",
+            "Place noodles in bowl.",
+            "Add beef slices.",
+            "Pour hot broth over noodles.",
+            "Top with green onion and lime."
+        ]
+    },
+    {
+        "id": "asian_spring_rolls",
+        "name": "Spring Rolls",
+        "diet": "vegetarian",
+        "cuisine": "asian",
+        "category": "asian",
+        "calories": 300,
+        "image": "/static/images/sr.jpg",
+        "ingredients": [
+            "spring roll wrappers",
+            "cabbage",
+            "carrot",
+            "bean sprouts",
+            "garlic",
+            "soy sauce",
+            "oil"
+        ],
+        "steps": [
+            "Cook cabbage, carrot and garlic.",
+            "Add soy sauce and mix.",
+            "Place filling in wrappers.",
+            "Roll tightly.",
+            "Fry until golden.",
+            "Serve hot."
+        ]
+    },
+    {
+        "id": "sweet_sour_chicken",
+        "name": "Sweet and Sour Chicken",
+        "diet": "normal",
+        "cuisine": "asian",
+        "category": "asian",
+        "calories": 600,
+        "image": "/static/images/ss.jpg",
+        "ingredients": [
+            "chicken",
+            "bell pepper",
+            "pineapple",
+            "garlic",
+            "soy sauce",
+            "sugar",
+            "vinegar",
+            "oil",
+            "rice"
+        ],
+        "steps": [
+            "Cook chicken pieces in oil.",
+            "Add garlic and bell peppers.",
+            "Add pineapple, sugar and vinegar.",
+            "Stir until sauce thickens.",
+            "Serve with rice."
+        ]
+    },
+    {
+        "id": "tofu_stir_fry",
+        "name": "Tofu Stir Fry",
+        "diet": "vegetarian",
+        "cuisine": "asian",
+        "category": "asian",
+        "calories": 380,
+        "image": "/static/images/tf.jpg",
+        "ingredients": [
+            "tofu",
+            "broccoli",
+            "carrot",
+            "soy sauce",
+            "garlic",
+            "ginger",
+            "oil",
+            "rice"
+        ],
+        "steps": [
+            "Cook tofu in a pan until golden.",
+            "Add garlic and ginger.",
+            "Add vegetables and stir fry.",
+            "Add soy sauce.",
+            "Serve with rice."
+        ]
+    },
+    {
+        "id": "canadian_poutine",
+        "name": "Poutine",
+        "diet": "normal",
+        "cuisine": "canadian",
+        "category": "canadian",
+        "calories": 700,
+        "image": "/static/images/cp.jpg",
+        "ingredients": [
+            "fries",
+            "cheese curds",
+            "gravy",
+            "salt"
+        ],
+        "steps": [
+            "Cook fries until crispy.",
+            "Place fries on a plate.",
+            "Add cheese curds.",
+            "Pour hot gravy on top.",
+            "Serve immediately."
+        ]
+    },
+    {
+        "id": "butter_tarts",
+        "name": "Butter Tarts",
+        "diet": "vegetarian",
+        "cuisine": "canadian",
+        "category": "dessert",
+        "calories": 350,
+        "image": "/static/images/bt.webp",
+        "ingredients": [
+            "pastry dough",
+            "butter",
+            "sugar",
+            "egg",
+            "vanilla"
+        ],
+        "steps": [
+            "Prepare pastry shells.",
+            "Mix butter, sugar and egg.",
+            "Pour mixture into shells.",
+            "Bake until golden."
+        ]
+    },
+    {
+        "id": "canadian_tourtiere",
+        "name": "Tourtiere",
+        "diet": "normal",
+        "cuisine": "canadian",
+        "category": "canadian",
+        "calories": 650,
+        "image": "/static/images/ct.jpg",
+        "ingredients": [
+            "pastry dough",
+            "ground pork",
+            "onion",
+            "garlic",
+            "potato",
+            "salt",
+            "black pepper"
+        ],
+        "steps": [
+            "Cook pork with onion and spices.",
+            "Add potatoes.",
+            "Place mixture in pastry crust.",
+            "Cover with top crust.",
+            "Bake until golden."
+        ]
+    },
+    {
+        "id": "smoked_meat_sandwich",
+        "name": "Montreal Smoked Meat Sandwich",
+        "diet": "normal",
+        "cuisine": "canadian",
+        "category": "sandwich",
+        "calories": 600,
+        "image": "/static/images/sm.jpg",
+        "ingredients": [
+            "rye bread",
+            "smoked beef",
+            "mustard",
+            "pickles"
+        ],
+        "steps": [
+            "Slice rye bread.",
+            "Add smoked beef.",
+            "Spread mustard.",
+            "Serve with pickles."
+        ]
+    },
+    {
+        "id": "canadian_bannock",
+        "name": "Bannock",
+        "diet": "vegetarian",
+        "cuisine": "canadian",
+        "category": "canadian",
+        "calories": 320,
+        "image": "/static/images/fb.jpg",
+        "ingredients": [
+            "flour",
+            "water",
+            "salt",
+            "baking powder",
+            "oil"
+        ],
+        "steps": [
+            "Mix flour, baking powder and salt.",
+            "Add water to form dough.",
+            "Shape dough into flat bread.",
+            "Cook in a pan until golden."
+        ]
+    },
+    {
+        "id": "nanaimo_bars",
+        "name": "Nanaimo Bars",
+        "diet": "vegetarian",
+        "cuisine": "canadian",
+        "category": "dessert",
+        "calories": 450,
+        "image": "/static/images/nb.jpg",
+        "ingredients": [
+            "graham crackers",
+            "butter",
+            "cocoa",
+            "sugar",
+            "custard powder",
+            "chocolate"
+        ],
+        "steps": [
+            "Mix graham crackers, cocoa and butter.",
+            "Press mixture into a pan.",
+            "Add custard layer.",
+            "Top with melted chocolate.",
+            "Refrigerate until firm."
+        ]
+    },
+    {
+        "id": "maple_salmon",
+        "name": "Maple Salmon",
+        "diet": "normal",
+        "cuisine": "canadian",
+        "category": "canadian",
+        "calories": 420,
+        "image": "/static/images/cs.jpg",
+        "ingredients": [
+            "salmon",
+            "maple syrup",
+            "garlic",
+            "soy sauce",
+            "salt",
+            "pepper"
+        ],
+        "steps": [
+            "Season salmon with salt and pepper.",
+            "Mix maple syrup, soy sauce and garlic.",
+            "Brush sauce on salmon.",
+            "Bake in oven until cooked."
+        ]
+    },
+    {
+        "id": "peameal_bacon_sandwich",
+        "name": "Peameal Bacon Sandwich",
+        "diet": "normal",
+        "cuisine": "canadian",
+        "category": "sandwich",
+        "calories": 520,
+        "image": "/static/images/ps.jpg",
+        "ingredients": [
+            "bun",
+            "peameal bacon",
+            "mustard",
+            "lettuce",
+            "tomato"
+        ],
+        "steps": [
+            "Cook peameal bacon slices.",
+            "Place bacon in bun.",
+            "Add lettuce and tomato.",
+            "Spread mustard.",
+            "Serve warm."
+        ]
+    },
+    {
+        "id": "beavertails",
+        "name": "BeaverTails",
+        "diet": "vegetarian",
+        "cuisine": "canadian",
+        "category": "dessert",
+        "calories": 500,
+        "image": "/static/images/cb.webp",
+        "ingredients": [
+            "flour",
+            "yeast",
+            "sugar",
+            "butter",
+            "cinnamon",
+            "oil"
+        ],
+        "steps": [
+            "Prepare yeast dough.",
+            "Shape into flat oval pieces.",
+            "Fry in hot oil.",
+            "Top with sugar and cinnamon.",
+            "Serve warm."
+        ]
+    },
+    {
+        "id": "split_pea_soup",
+        "name": "Split Pea Soup",
+        "diet": "normal",
+        "cuisine": "canadian",
+        "category": "soup",
+        "calories": 350,
+        "image": "/static/images/sp.jpg",
+        "ingredients": [
+            "split peas",
+            "carrot",
+            "onion",
+            "garlic",
+            "ham",
+            "salt",
+            "black pepper",
+            "water"
+        ],
+        "steps": [
+            "Cook split peas with water.",
+            "Add onion, carrot and garlic.",
+            "Add ham pieces.",
+            "Simmer until peas are soft.",
+            "Serve hot."
+        ]
+    },
+    {
+        "id": "strawberry_banana_smoothie",
+        "name": "Strawberry Banana Smoothie",
+        "diet": "vegetarian",
+        "cuisine": "drink",
+        "category": "drink",
+        "calories": 250,
+        "image": "/static/images/strawberry-banana-smoothie.jpg",
+        "ingredients": [
+            "banana",
+            "strawberries",
+            "milk",
+            "yogurt",
+            "honey",
+            "ice"
+        ],
+        "steps": [
+            "Add strawberries and banana to a blender.",
+            "Add milk and yogurt.",
+            "Add honey and ice.",
+            "Blend until smooth.",
+            "Serve cold."
+        ]
+    },
+    {
+        "id": "mango_smoothie",
+        "name": "Mango Smoothie",
+        "diet": "vegetarian",
+        "cuisine": "drink",
+        "category": "drink",
+        "calories": 240,
+        "image": "/static/images/ms.jpg",
+        "ingredients": [
+            "mango",
+            "banana",
+            "milk",
+            "yogurt",
+            "ice"
+        ],
+        "steps": [
+            "Add mango and banana to blender.",
+            "Add yogurt and milk.",
+            "Blend until creamy.",
+            "Add ice and blend again.",
+            "Serve cold."
+        ]
+    },
+    {
+        "id": "chocolate_banana_smoothie",
+        "name": "Chocolate Banana Smoothie",
+        "diet": "vegetarian",
+        "cuisine": "drink",
+        "category": "drink",
+        "calories": 300,
+        "image": "/static/images/cbs.jpg",
+        "ingredients": [
+            "banana",
+            "milk",
+            "cocoa powder",
+            "peanut butter",
+            "ice"
+        ],
+        "steps": [
+            "Add banana and milk to blender.",
+            "Add cocoa powder and peanut butter.",
+            "Blend until smooth.",
+            "Add ice and blend again.",
+            "Serve chilled."
+        ]
+    },
+    {
+        "id": "green_detox_smoothie",
+        "name": "Green Detox Smoothie",
+        "diet": "vegan",
+        "cuisine": "drink",
+        "category": "drink",
+        "calories": 180,
+        "image": "/static/images/gd.jpg",
+        "ingredients": [
+            "spinach",
+            "banana",
+            "apple",
+            "cucumber",
+            "lemon",
+            "water"
+        ],
+        "steps": [
+            "Add spinach and cucumber to blender.",
+            "Add banana and apple.",
+            "Add lemon juice and water.",
+            "Blend until smooth.",
+            "Serve fresh."
+        ]
+    },
+    {
+        "id": "berry_blast_smoothie",
+        "name": "Berry Blast Smoothie",
+        "diet": "vegetarian",
+        "cuisine": "drink",
+        "category": "drink",
+        "calories": 220,
+        "image": "/static/images/bb.webp",
+        "ingredients": [
+            "mixed berries",
+            "banana",
+            "yogurt",
+            "honey",
+            "ice"
+        ],
+        "steps": [
+            "Add mixed berries and banana to blender.",
+            "Add yogurt and honey.",
+            "Blend until smooth.",
+            "Add ice and blend again.",
+            "Serve cold."
+        ]
+    },
+    {
+        "id": "peanut_butter_protein_smoothie",
+        "name": "Peanut Butter Protein Smoothie",
+        "diet": "vegetarian",
+        "cuisine": "drink",
+        "category": "drink",
+        "calories": 420,
+        "image": "/static/images/pbs.webp",
+        "ingredients": [
+            "banana",
+            "milk",
+            "peanut butter",
+            "oats",
+            "honey",
+            "ice"
+        ],
+        "steps": [
+            "Add banana and milk to blender.",
+            "Add peanut butter and oats.",
+            "Add honey and ice.",
+            "Blend until smooth.",
+            "Serve cold."
+        ]
+    },
+    {
+        "id": "tropical_smoothie",
+        "name": "Tropical Smoothie",
+        "diet": "vegetarian",
+        "cuisine": "drink",
+        "category": "drink",
+        "calories": 230,
+        "image": "/static/images/ts.jpg",
+        "ingredients": [
+            "mango",
+            "pineapple",
+            "banana",
+            "orange juice",
+            "ice"
+        ],
+        "steps": [
+            "Add mango, pineapple and banana to blender.",
+            "Add orange juice.",
+            "Add ice and blend until smooth.",
+            "Serve chilled."
+        ]
+    },
+    {
+        "id": "chocolate_brownies",
+        "name": "Chocolate Brownies",
+        "diet": "vegetarian",
+        "cuisine": "dessert",
+        "category": "dessert",
+        "calories": 450,
+        "image": "/static/images/br.jpg",
+        "ingredients": [
+            "flour",
+            "cocoa powder",
+            "butter",
+            "sugar",
+            "eggs",
+            "vanilla"
+        ],
+        "steps": [
+            "Mix butter and sugar.",
+            "Add eggs and vanilla.",
+            "Add flour and cocoa powder.",
+            "Pour mixture into baking pan.",
+            "Bake until cooked."
+        ]
+    },
+    {
+        "id": "cheesecake",
+        "name": "Cheesecake",
+        "diet": "vegetarian",
+        "cuisine": "dessert",
+        "category": "dessert",
+        "calories": 500,
+        "image": "/static/images/che.webp",
+        "ingredients": [
+            "cream cheese",
+            "sugar",
+            "eggs",
+            "vanilla",
+            "biscuits",
+            "butter"
+        ],
+        "steps": [
+            "Crush biscuits and mix with butter.",
+            "Press mixture into cake pan.",
+            "Mix cream cheese, sugar and eggs.",
+            "Pour filling over crust.",
+            "Bake and chill before serving."
+        ]
+    },
+    {
+        "id": "apple_pie",
+        "name": "Apple Pie",
+        "diet": "vegetarian",
+        "cuisine": "dessert",
+        "category": "dessert",
+        "calories": 420,
+        "image": "/static/images/ap.jpg",
+        "ingredients": [
+            "apples",
+            "sugar",
+            "cinnamon",
+            "flour",
+            "butter",
+            "pastry dough"
+        ],
+        "steps": [
+            "Slice apples and mix with sugar and cinnamon.",
+            "Place apples into pie crust.",
+            "Cover with top crust.",
+            "Bake until golden brown.",
+            "Serve warm."
+        ]
+    },
+    {
+        "id": "greek_yogurt_berry_parfait",
+        "name": "Greek Yogurt Berry Parfait",
+        "category": "dessert",
+        "diet": "muscle gain",
+        "cuisine": "healthy",
+        "calories": 280,
+        "image": "/static/images/gh.jpg",
+        "ingredients": [
+            "greek yogurt",
+            "strawberries",
+            "blueberries",
+            "granola",
+            "honey"
+        ],
+        "steps": [
+            "Add a layer of greek yogurt to a glass.",
+            "Add berries and granola.",
+            "Repeat layers and drizzle honey on top."
+        ]
+    },
+    {
+        "id": "chocolate_protein_mug_cake",
+        "name": "Chocolate Protein Mug Cake",
+        "category": "dessert",
+        "diet": "muscle gain",
+        "cuisine": "healthy",
+        "calories": 350,
+        "image": "/static/images/pm.jpg",
+        "ingredients": [
+            "oat flour",
+            "cocoa powder",
+            "protein powder",
+            "egg",
+            "milk",
+            "honey"
+        ],
+        "steps": [
+            "Mix oat flour, cocoa powder, and protein powder in a mug.",
+            "Add egg, milk, and honey.",
+            "Stir well and microwave for 60 to 90 seconds."
+        ]
+    },
+    {
+        "id": "cottage_cheese_chocolate_mousse",
+        "name": "Cottage Cheese Chocolate Mousse",
+        "category": "dessert",
+        "diet": "muscle gain",
+        "cuisine": "healthy",
+        "calories": 250,
+        "image": "/static/images/cc.jpg",
+        "ingredients": [
+            "cottage cheese",
+            "cocoa powder",
+            "honey",
+            "vanilla",
+            "milk"
+        ],
+        "steps": [
+            "Add cottage cheese, cocoa powder, honey, vanilla, and milk to a blender.",
+            "Blend until smooth and creamy.",
+            "Chill before serving."
+        ]
+    },
+    {
+        "id": "almond_butter_banana_ice_cream",
+        "name": "Almond Butter Banana Ice Cream",
+        "category": "dessert",
+        "diet": "muscle gain",
+        "cuisine": "healthy",
+        "calories": 300,
+        "image": "/static/images/ca.jpg",
+        "ingredients": [
+            "frozen bananas",
+            "almond butter",
+            "milk",
+            "vanilla",
+            "dark chocolate chips"
+        ],
+        "steps": [
+            "Blend frozen bananas with almond butter, milk, and vanilla.",
+            "Blend until creamy.",
+            "Stir in chocolate chips and serve."
+        ]
+    },
+    {
+        "id": "peanut_butter_yogurt_bites",
+        "name": "Peanut Butter Greek Yogurt Bites",
+        "category": "dessert",
+        "diet": "muscle gain",
+        "cuisine": "healthy",
+        "calories": 200,
+        "image": "/static/images/fg.webp",
+        "ingredients": [
+            "greek yogurt",
+            "peanut butter",
+            "honey",
+            "oats"
+        ],
+        "steps": [
+            "Mix greek yogurt, peanut butter, honey, and oats.",
+            "Scoop small portions onto a tray.",
+            "Freeze until firm."
+        ]
+    },
+    {
+        "id": "high_protein_cheesecake_cups",
+        "name": "High Protein Cheesecake Cups",
+        "category": "dessert",
+        "diet": "muscle gain",
+        "cuisine": "healthy",
+        "calories": 330,
+        "image": "/static/images/hp.jpg",
+        "ingredients": [
+            "greek yogurt",
+            "cream cheese",
+            "honey",
+            "oats",
+            "berries"
+        ],
+        "steps": [
+            "Crush oats and press them into small cups.",
+            "Mix greek yogurt, cream cheese, and honey.",
+            "Add mixture on top of oats and garnish with berries."
+        ]
+    },
+    {
+        "id": "protein_brownies",
+        "name": "Protein Brownies",
+        "category": "dessert",
+        "diet": "muscle gain",
+        "cuisine": "healthy",
+        "calories": 310,
+        "image": "/static/images/pro.jpg",
+        "ingredients": [
+            "banana",
+            "almond butter",
+            "cocoa powder",
+            "protein powder"
+        ],
+        "steps": [
+            "Mash banana in a bowl.",
+            "Mix with almond butter, cocoa powder, and protein powder.",
+            "Bake at 180°C for 15 to 20 minutes."
+        ]
+    },
+    {
+        "id": "chocolate_chip_banana_oatmeal_cookies",
+        "name": "Chocolate Chip Banana Oatmeal Cookies",
+        "category": "dessert",
+        "diet": "muscle gain",
+        "cuisine": "healthy",
+        "calories": 250,
+        "image": "/static/images/ccc.jpg",
+        "ingredients": [
+            "banana",
+            "oats",
+            "peanut butter",
+            "honey",
+            "dark chocolate chips"
+        ],
+        "steps": [
+            "Mash banana and mix with oats and peanut butter.",
+            "Add honey and chocolate chips.",
+            "Scoop onto baking tray and bake for 12 minutes at 180°C."
+        ]
+    },
+    {
+        "id": "strawberry_smoothie_bowl",
+        "name": "Strawberry Yogurt Smoothie Bowl",
+        "category": "dessert",
+        "diet": "muscle gain",
+        "cuisine": "healthy",
+        "calories": 400,
+        "image": "/static/images/ss.jpg",
+        "ingredients": [
+            "greek yogurt",
+            "strawberries",
+            "banana",
+            "granola",
+            "almonds",
+            "honey"
+        ],
+        "steps": [
+            "Blend greek yogurt, strawberries, and banana.",
+            "Pour into a bowl.",
+            "Top with granola, almonds, and honey."
+        ]
+    },
+    {
+        "id": "dark_chocolate_peanut_butter_cups",
+        "name": "Dark Chocolate Peanut Butter Cups",
+        "category": "dessert",
+        "diet": "muscle gain",
+        "cuisine": "healthy",
+        "calories": 300,
+        "image": "/static/images/dcp.jpg",
+        "ingredients": [
+            "dark chocolate",
+            "peanut butter",
+            "oats",
+            "honey"
+        ],
+        "steps": [
+            "Melt dark chocolate.",
+            "Fill cupcake molds halfway.",
+            "Add peanut butter mixture and cover with more chocolate.",
+            "Refrigerate until firm."
+        ]
+    },
+    {
+        "id": "mango_coconut_chia_pudding",
+        "name": "Mango Coconut Chia Pudding",
+        "category": "dessert",
+        "diet": "muscle gain",
+        "cuisine": "healthy",
+        "calories": 270,
+        "image": "/static/images/mcc.webp",
+        "ingredients": [
+            "chia seeds",
+            "coconut milk",
+            "mango",
+            "honey"
+        ],
+        "steps": [
+            "Mix chia seeds with coconut milk and honey.",
+            "Refrigerate overnight.",
+            "Top with fresh mango before serving."
+        ]
+    },
+    {
+        "id": "apple_cinnamon_protein_oat_bake",
+        "name": "Apple Cinnamon Protein Oat Bake",
+        "category": "dessert",
+        "diet": "muscle gain",
+        "cuisine": "healthy",
+        "calories": 360,
+        "image": "/static/images/hpb.webp",
+        "ingredients": [
+            "oats",
+            "apples",
+            "milk",
+            "protein powder",
+            "cinnamon",
+            "honey"
+        ],
+        "steps": [
+            "Mix oats, milk, protein powder, cinnamon, and honey.",
+            "Add chopped apples.",
+            "Bake at 180°C for 25 minutes."
+        ]
+    },
+    {
+        "id": "date_peanut_butter_energy_balls",
+        "name": "Date Peanut Butter Energy Balls",
+        "category": "dessert",
+        "diet": "muscle gain",
+        "cuisine": "healthy",
+        "calories": 280,
+        "image": "/static/images/pbs.jpg",
+        "ingredients": [
+            "dates",
+            "peanut butter",
+            "oats",
+            "almonds",
+            "cocoa powder"
+        ],
+        "steps": [
+            "Blend dates, peanut butter, oats, almonds, and cocoa powder.",
+            "Roll mixture into small balls.",
+            "Refrigerate for 30 minutes before serving."
+        ]
+    }
+]

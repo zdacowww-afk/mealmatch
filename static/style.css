@@ -1,0 +1,533 @@
+h1 {
+    color: #2c3e50;
+}
+
+p {
+    color: #2c3e50;
+}
+
+.results-grid {
+    max-width: 900px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 14px;
+    text-align: left;
+}
+
+.meal-card {
+    display: block;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    background: #fff;
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+.meal-card:hover {
+    transform: translateY(-2px);
+}
+
+.meal-title {
+    margin: 0 0 8px 0;
+}
+
+.meal-meta {
+    margin: 0;
+    font-weight: bold;
+}
+
+.meal-open {
+    margin: 12px 0 0 0;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.meal-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 16px;
+    text-decoration: none;
+    color: #2c3e50;
+    transition: transform 0.15s;
+    max-width: 300px;
+}
+
+.meal-card:hover {
+    transform: scale(1.03);
+}
+
+.meal-title {
+    margin: 0 0 10px 0;
+}
+
+.meal-cal {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.meal-open {
+    margin-top: 10px;
+    color: #2c3e50;
+}
+
+.meal-detail-card {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.meal-detail-title {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 38px;
+    color: #2c3559;
+}
+
+.meal-detail-img {
+    width: 100%;
+    max-width: 700px;
+    height: 380px;
+    object-fit: cover;
+    display: block;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    margin: 18px auto;
+}
+
+.meal-options {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin: 18px 0 28px 0;
+}
+
+.meal-info-columns {
+    display: flex;
+    gap: 24px;
+    margin-top: 25px;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.meal-info-box {
+    flex: 1;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.meal-info-box h3 {
+    margin-top: 0;
+    color: #2c3559;
+}
+
+.meal-info-box ul,
+.meal-info-box ol {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.related-meals-section {
+    margin-top: 30px;
+}
+
+.related-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #2c3559
+}
+
+.related-meals-section h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3559;
+}
+
+.pill {
+    display: inline-block;
+    padding: 6px 10 px;
+    border: 1px solid #ddd;
+    border-radius: 999px;
+    background: #f7f7f7;
+    font-size: 14px;
+}
+
+.muted {
+    color: #666;
+}
+
+.meal-card-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.save-btn {
+    background: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.save-btn:hover {
+    background: #e68900;
+}
+
+.popup-msg {
+    background: #4CAF50;
+    color: white;
+    padding: 12px 18px;
+    border-radius: 8px;
+    width: fit-content;
+    margin: 10px auto;
+    font-weight: bold;
+    animation: fadeout 3s forwards;
+}
+
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f8f8fb;
+    color: #222;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 36px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-icon {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+}
+
+.logo-text h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #17275e;
+}
+
+.logo-text p {
+    margin: 0;
+    font-size: 13px;
+    color: #666;
+}
+
+.main-nav {
+    display: flex;
+    gap: 24px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #17275e;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.main-nav a:hover {
+    color: #ff9800;
+}
+
+.page-content {
+    padding: 30px 40px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 18px;
+    background: #f1f1f1;
+    color: #666;
+    font-size: 14px;
+}
+
+.home-intro {
+    max-width: 800px;
+    margin: 40px auto 30px auto;
+    text-align: center;
+}
+
+.home-intro h2 {
+    font-size: 52px;
+    margin-bottom: 14px;
+    color: #2c3559;
+}
+
+.home-intro p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.recommended-section {
+    max-width: 1150px;
+    margin: 30px auto 50px auto;
+}
+
+.recommended-section h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #2c3559;
+}
+
+/* SEARCH PAGE LAYOUT */
+
+.search-layout {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+
+/* LEFT FILTER PANEL */
+
+.filters-panel {
+    width: 280px;
+    background: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.filters-panel h2,
+.filters-panel h3 {
+    margin-top: 10px;
+    color: #2c3559;
+}
+
+.filters-panel label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.filters-panel input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+
+/* BUTTONS */
+
+.filter-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.reset-btn {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #222;
+    display: inline-black;
+    text-align: center;
+}
+
+.apply-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+/* RIGHT RESULTS AREA */
+
+.results-panel {
+    flex: 1;
+}
+
+.results-panel h2 {
+    margin-top: 0;
+}
+
+.no-results-msg {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #666;
+}
+
+@media (max-width: 900px) {
+    .meal-info-columns {
+        flex-direction: column;
+    }
+}
+
+/* CONTACT PAGE */
+
+.contact-wrapper {
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact-header h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #2c3559;
+}
+
+.contact-header p {
+    margin: 0 auto;
+    max-width: 650px;
+    color: #666;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.contact-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #2c3559;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background: #fafafa;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #ff9800;
+    background: white;
+}
+
+.contact-btn {
+    background: #ff9800;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 13px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.contact-btn:hover {
+    background: #e68900;
+}
+
+.contact-success {
+    background: #e8f7e8;
+    color: #2e7d32;
+    border: 1px solid #b7e1b9;
+    padding: 12px 16px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.view-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 6px 14px;
+    background-color: #ff9f43;
+    color: white;
+    font-size: 14px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: center;
+}
+
+.view-btn:hover {
+    background-color: #ff7f00;
+    cursor: pointer;
+}

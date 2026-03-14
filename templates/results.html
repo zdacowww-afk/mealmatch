@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Search results</h1>
+
+{% if goal %}<p><b>Fitness Goal:</b> {{ goal }}</p>{% endif %}
+{% if ingredients %}<p><b>Available Ingredients:</b> {{ ingredients }}</p>{% endif %}
+
+<hr>
+
+{% if matched_meals and matched_meals|length > 0 %}
+<h3>Meals found: {{ matched_meals|length }}</h3>
+
+<div class="results-grid">
+    {% for meal in matched_meals %}
+    <a class="meal-card" href="/meal/{{ meal.id }}">
+
+        <img src="{{ meal.image }}" class="meal-card-img" alt="{{ meal.name }}">
+        <h3 class="meal-title">{{ meal.name }}</h3>
+        <p class="meal-meta">{{ meal.cuisine }} | {{ meal.diet }}</p>
+        <p class="meal-cal">{{ meal.calories }} cal</p>
+        <p class="meal-meta">Matched ingredients: {{ meal.match_count }} / {{ meal.ingredient_total }}</p>
+        <p class="meal-open">Open</p>
+    </a>
+    {% endfor %}
+</div>
+
+{% else %}
+<p><b>No meals found.</b> Please try entering different ingredients, or add more available ingredients to improve
+    matching.</p>
+{% endif %}
+
+<p><a href="/search">Back to search</a></p>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Recommended Meals</h1>
+
+{% if meals and meals|length > 0 %}
+<div class="results-grid">
+
+    {% for meal in meals %}
+    <div class="meal-card">
+        {% if meal.image %}
+        <img src="{{ meal.image }}" class="meal-card-img">
+        {% else %}
+        <p>No image</p>
+        {% endif %}
+
+        <h3>{{ meal.name }}</h3>
+        <p>{{ meal.calories }} kcal</p>
+        <p>Shared ingredients: {{ meal.shared_count }}</p>
+        <a href="/meal/{{ meal.id }}" class="view-btn">View Details</a>
+    </div>
+    {% endfor %}
+
+</div>
+{% else %}
+<p>No recommendations yet. Save some favorite meals first.</p>
+{% endif %}
+
+<p><a href="/favorites">Back to favorites</a></p>
+{% endblock %}

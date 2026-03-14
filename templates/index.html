@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="home-intro">
+    <h2>Welcome to MealMatch!</h2>
+    <p>
+        This website helps you find meals based on your fitness goals,
+        category preferences, and the ingredients you already have at home.
+    </p>
+</section>
+
+<section class="recommended-section">
+    <h3>Here are some meals we recommend you try:</h3>
+
+    <div class="results-grid">
+        {% for meal in meals[:12] %}
+        <div class="meal-card">
+            {% if meal.image %}
+            <img src="{{ meal.image }}" alt="{{ meal.name }}" class="meal-card-img">
+            {% else %}
+            <div class="meal-card-img muted">No image</div>
+            {% endif %}
+
+            <h4 class="meal-title">{{ meal.name }}</h4>
+            <p class="meal-meta">{{ meal.calories }} cal | {{ meal.category }} | {{ meal.diet }}</p>
+            <a href="/meal/{{ meal.id }}" class="view-btn">View Details</a>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+{% endblock %}

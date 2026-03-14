@@ -1,0 +1,144 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="search-layout">
+
+    <div class="filters-panel">
+        <h2>Filters</h2>
+
+        <form action="/search" method="GET">
+
+            <h3>Fitness Goals:</h3>
+
+            <label>
+                <input type="radio" name="goal" value="muscle_gain" {% if selected_goal=="muscle_gain" %}checked{% endif
+                    %}> Muscle Gain </label>
+
+            <label>
+                <input type="radio" name="goal" value="weight_loss" {% if selected_goal=="weight_loss" %}checked{% endif
+                    %}> Weight Loss </label>
+
+            <label>
+                <input type="radio" name="goal" value="maintenance" {% if selected_goal=="maintenance" %}checked{% endif
+                    %}> Maintenance </label>
+
+
+            <h3>Category:</h3>
+
+            <label>
+                <input type="radio" name="category" value="asian" {% if selected_category=="asian" %}checked{% endif %}>
+                Asian
+            </label>
+
+            <label>
+                <input type="radio" name="category" value="canadian" {% if selected_category=="canadian" %}checked{%
+                    endif %}>
+                Canadian
+            </label>
+
+            <label>
+                <input type="radio" name="category" value="dessert" {% if selected_category=="dessert" %}checked{% endif
+                    %}>
+                Dessert
+            </label>
+
+            <label>
+                <input type="radio" name="category" value="drink" {% if selected_category=="drink" %}checked{% endif %}>
+                Drink
+            </label>
+
+            <label>
+                <input type="radio" name="category" value="indian" {% if selected_category=="indian" %}checked{% endif
+                    %}>
+                Indian
+            </label>
+
+            <label>
+                <input type="radio" name="category" value="iraqi" {% if selected_category=="iraqi" %}checked{% endif %}>
+                Iraqi
+            </label>
+
+            <label>
+                <input type="radio" name="category" value="italian" {% if selected_category=="italian" %}checked{% endif
+                    %}>
+                Italian
+            </label>
+
+            <label>
+                <input type="radio" name="category" value="pasta" {% if selected_category=="pasta" %}checked{% endif %}>
+                Pasta
+            </label>
+
+            <label>
+                <input type="radio" name="category" value="pizza" {% if selected_category=="pizza" %}checked{% endif %}>
+                Pizza
+            </label>
+
+            <label>
+                <input type="radio" name="category" value="salad" {% if selected_category=="salad" %}checked{% endif %}>
+                Salad
+            </label>
+
+            <label>
+                <input type="radio" name="category" value="sandwich" {% if selected_category=="sandwich" %}checked{%
+                    endif %}>
+                Sandwich
+            </label>
+
+            <label>
+                <input type="radio" name="category" value="soup" {% if selected_category=="soup" %}checked{% endif %}>
+                Soup
+            </label>
+
+            <label>
+                <input type="radio" name="category" value="turkish" {% if selected_category=="turkish" %}checked{% endif
+                    %}>
+                Turkish
+            </label>
+
+
+            <h3>Available Ingredients:</h3>
+
+            <input type="text" name="ingredients" list="ingredient-list" placeholder="e.g. lemon, onion, rice"
+                value="{{ ingredients_value if ingredients_value is defined else '' }}">
+
+            <datalist id="ingredient-list">
+                {% for ingredient in ingredient_suggestions %}
+                <option value="{{ ingredient }}">
+                    {% endfor %}
+            </datalist>
+
+
+            <div class="filter-buttons">
+                <a href="/search" class="reset-btn">Reset</a>
+                <button type="submit" class="apply-btn">Apply Filters</button>
+            </div>
+
+        </form>
+    </div>
+
+
+    <div class="results-panel">
+        <h2>Meals found: {{ matched_meals|length }}</h2>
+
+        {% if matched_meals %}
+        <div class="results-grid">
+            {% for meal in matched_meals %}
+            <a href="/meal/{{ meal.id }}" class="meal-card">
+                {% if meal.image %}
+                <img src="{{ meal.image }}" alt="{{ meal.name }}" class="meal-card-img">
+                {% endif %}
+
+                <h4 class="meal-title">{{ meal.name }}</h4>
+                <p class="meal-meta">{{ meal.calories }} cal | {{ meal.category }} | {{ meal.diet }}</p>
+                <p class="meal-open">View Details</p>
+            </a>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p class="no-results-msg">No meals match your filters. Try changing your search.</p>
+        {% endif %}
+    </div>
+
+    {% endblock %}
