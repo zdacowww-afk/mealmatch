@@ -1,15 +1,15 @@
 from flask import Flask, render_template, session, request, redirect
 import uuid
 import json
-import smtplib
-from email.mime.text import MIMEText
 import os
 import difflib
 import sqlite3
+import requests
 from datetime import datetime
 
 EMAIL_ADDRESS = os.environ.get("EMAIL_ADDRESS")
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
+RESEND_API_KEY = os.getenv("RESEND_API_KEY")
 
 app = Flask(__name__)
 app.secret_key = os.environ.get(
@@ -340,9 +340,26 @@ def save_meal(meal_id):
     )
 
 
+def send_email(name, email, message):
+    response = requests.post(
+        "https://api.resend.com/emails",
+        headers={
+            "Authorization": f"Bearer {RESEND_API_KEY}",
+            "Content-Type": "application/json"
+        },
+        json={
+            "from": "MealMatch <onboarding@resend.dev>",
+            "to": [os.getenv("EMAIL_ADDRESS")],
+            "subject": f"MealMatch Contact from {name}",
+            "text": f"Name: {name}\nEmail: {email}\n\nMessage:\n{message}"
+        }
+    )
+
+    return response.status_code
+
+
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
-
     success = False
 
     if request.method == "POST":
@@ -350,35 +367,9 @@ def contact():
         email = request.form.get("email")
         message = request.form.get("message")
 
-        subject = "MealMatch Feedback"
-
-        email_body = f"""
-New MealMatch Contact Message
-
-Name: {name}
-Email: {email}
-
--------------------------------------------------
-
-Message:
-{message}
-
--------------------------------------------------
-"""
-
-        msg = MIMEText(email_body)
-        msg["Subject"] = subject
-        msg["From"] = EMAIL_ADDRESS
-        msg["To"] = EMAIL_ADDRESS
-        msg["Reply-To"] = email
-
         try:
-            server = smtplib.SMTP("smtp.gmail.com", 587, timeout=10)
-            server.starttls()
-            server.login(EMAIL_ADDRESS, EMAIL_PASSWORD)
-            server.send_message(msg)
-            server.quit()
-            success = True
+            status_code = send_email(name, email, message)
+            success = status_code in [200, 201]
         except Exception as e:
             print("Email error:", e)
             success = False
