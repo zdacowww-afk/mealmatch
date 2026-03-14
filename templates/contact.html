@@ -10,11 +10,11 @@
             </p>
         </div>
 
-        {% if success is true %}
+        {% if success == "1" %}
         <div class="contact-success">
             Message sent successfully.
         </div>
-        {% elif success is false %}
+        {% elif success == '0' %}
         <div class="contact-error">
             Message could not be sent. Please try again.
         </div>

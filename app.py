@@ -1,4 +1,4 @@
-from flask import Flask, render_template, session, request, redirect
+from flask import Flask, render_template, session, request, redirect, url_for
 import uuid
 import json
 import os
@@ -360,7 +360,7 @@ def send_email(name, email, message):
 
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
-    success = None
+    success = request.args.get("success")
 
     if request.method == "POST":
         name = request.form.get("name")
@@ -370,10 +370,15 @@ def contact():
         try:
             status_code = send_email(name, email, message)
             print("Resend status code:", status_code)
-            success = status_code in [200, 201]
+
+            if status_code in [200, 201]:
+                return redirect(url_for("contact", success="1"))
+            else:
+                return redirect(url_for("contact", success="0"))
+
         except Exception as e:
             print("Email error:", e)
-            success = False
+            return redirect(url_for("contact", success="0"))
 
     return render_template("contact.html", success=success)
 
