@@ -21,10 +21,10 @@
         </div>
 
         <nav class="main-nav">
-            <a href="/">Home</a>
-            <a href="/search">Search</a>
-            <a href="/favorites">Saved Meals</a>
-            <a href="/contact">Contact Us</a>
+            <a href="/" class="{% if request.path == '/' %}active{% endif %}">Home</a>
+            <a href="/search" class="{% if request.path.startswith('/search') %}active{% endif %}">Search</a>
+            <a href="/favorites" class="{% if request.path.startswith('/favorites') %}active{% endif %}">Saved Meals</a>
+            <a href="/contact" class="{% if request.path.startswith('/contact') %}active{% endif %}">Contact Us</a>
         </nav>
     </header>
 
