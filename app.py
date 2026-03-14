@@ -360,7 +360,7 @@ def send_email(name, email, message):
 
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
-    success = False
+    success = None
 
     if request.method == "POST":
         name = request.form.get("name")
@@ -369,6 +369,7 @@ def contact():
 
         try:
             status_code = send_email(name, email, message)
+            print("Resend status code:", status_code)
             success = status_code in [200, 201]
         except Exception as e:
             print("Email error:", e)
