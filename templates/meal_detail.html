@@ -66,10 +66,9 @@
 
             <h4 class="meal-title">{{ related.name }}</h4>
             <p class="meal-meta">{{ related.calories }} cal | {{ related.category }} | {{ related.diet }}</p>
-            <p>Matching Ingredients: {{ related.shared_count }}</p>
-            <span class="view-btn">View Details</span>
-        </a>
-        {% endfor %}
+            <p class="meal-meta">Matching Ingredients: {{ related.shared_count }}</p>
+            <a href="/meal/{{ related.id }}" class="view-btn">View Details</a>
+            {% endfor %}
     </div>
     {% else %}
     <p class="no-results-msg">No related meals found.</p>

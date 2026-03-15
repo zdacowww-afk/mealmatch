@@ -142,7 +142,7 @@ p {
 
 .pill {
     display: inline-block;
-    padding: 6px 10 px;
+    padding: 6px 10px;
     border: 1px solid #ddd;
     border-radius: 999px;
     background: #f7f7f7;
@@ -357,7 +357,7 @@ body {
     cursor: pointer;
     text-decoration: none;
     color: #222;
-    display: inline-black;
+    display: inline-block;
     text-align: center;
 }
 
