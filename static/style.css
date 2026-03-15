@@ -226,6 +226,7 @@ body {
     width: 42px;
     height: 42px;
     object-fit: contain;
+    border-radius: 12px;
 }
 
 .logo-text h1 {
