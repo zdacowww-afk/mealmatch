@@ -54,25 +54,26 @@
 
     <div class="related-meals-section">
         <h3 class="related-title">Related Meals:</h3>
-    </div>
 
-    {% if related_meals and related_meals|length > 0 %}
-    <div class="results-grid">
-        {% for related in related_meals %}
-        <a href="/meal/{{ related.id }}" class="meal-card">
-            {% if related.image %}
-            <img src="{{ related.image }}" alt="{{ related.name }}" class="meal-card-img">
-            {% endif %}
+        {% if related_meals and related_meals|length > 0 %}
+        <div class="results-grid">
+            {% for related in related_meals %}
+            <div class="meal-card">
+                {% if related.image %}
+                <img src="{{ related.image }}" alt="{{ related.name }}" class="meal-card-img">
+                {% endif %}
 
-            <h4 class="meal-title">{{ related.name }}</h4>
-            <p class="meal-meta">{{ related.calories }} cal | {{ related.category }} | {{ related.diet }}</p>
-            <p class="meal-meta">Matching Ingredients: {{ related.shared_count }}</p>
-            <a href="/meal/{{ related.id }}" class="view-btn">View Details</a>
+                <h4 class="meal-title">{{ related.name }}</h4>
+                <p class="meal-meta">{{ related.calories }} cal | {{ related.category }} | {{ related.diet }}</p>
+                <p class="meal-meta">Matching Ingredients: {{ related.shared_count }}</p>
+
+                <a href="/meal/{{ related.id }}" class="view-btn">View Details</a>
+            </div>
             {% endfor %}
+        </div>
+        {% else %}
+        <p class="no-results-msg">No related meals found.</p>
+        {% endif %}
     </div>
-    {% else %}
-    <p class="no-results-msg">No related meals found.</p>
-    {% endif %}
-</div>
 
-{% endblock %}
+    {% endblock %}
