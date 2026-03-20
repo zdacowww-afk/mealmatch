@@ -15,9 +15,12 @@ app = Flask(__name__)
 app.secret_key = os.environ.get(
     "SECRET_KEY", "mealmatch_secret_key_change_later")
 
+# load meals from JSON file
+
 
 def load_meals():
     file_path = os.path.join(os.path.dirname(__file__), "meals.json")
+    # open and read JSON file
     with open(file_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
@@ -27,15 +30,19 @@ print("TOTAL MEALS =", len(meals))
 
 
 def get_db_connection():
+    # connect to SQLite database (mealmatch.db)
     conn = sqlite3.connect(os.path.join(os.getcwd(), "mealmatch.db"))
     conn.row_factory = sqlite3.Row
     return conn
+
+# initialize database and create tables if not exist
 
 
 def init_db():
     conn = get_db_connection()
     cursor = conn.cursor()
 
+    # store unique users using session_id
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS users (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -43,6 +50,7 @@ def init_db():
         )
     """)
 
+    # store user search history (goal, category, ingredients)
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS saved_searches (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -54,6 +62,7 @@ def init_db():
         )
     """)
 
+    # save user meals
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS favorites (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -64,6 +73,7 @@ def init_db():
         )
     """)
 
+    # save changes and close connection
     conn.commit()
     conn.close()
 

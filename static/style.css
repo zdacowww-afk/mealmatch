@@ -300,7 +300,7 @@ body {
     color: #2c3559;
 }
 
-/* SEARCH PAGE LAYOUT */
+/* We are creating a layout for search */
 
 .search-layout {
     display: flex;
@@ -311,7 +311,7 @@ body {
 }
 
 
-/* LEFT FILTER PANEL */
+/* Developing left filter panel */
 
 .filters-panel {
     width: 280px;
@@ -342,7 +342,7 @@ body {
 }
 
 
-/* BUTTONS */
+/* The apply filters button and reset button sorted */
 
 .filter-buttons {
     display: flex;
@@ -372,7 +372,7 @@ body {
 }
 
 
-/* RIGHT RESULTS AREA */
+/* Displaying meals on meal card on the right panel  */
 
 .results-panel {
     flex: 1;
@@ -394,7 +394,7 @@ body {
     }
 }
 
-/* CONTACT PAGE */
+/* Making the contact page design */
 
 .contact-wrapper {
     max-width: 800px;
